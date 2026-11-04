@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-// 直接将 baseURL 写死为你最新的 cpolar 公网地址，并带上 /api
+// 直接写死你最新的 cpolar 地址
 const api = axios.create({ baseURL: 'https://538d7c3.r34.cpolar.top/api' });
 
 api.interceptors.request.use((config) => {
